@@ -1,0 +1,240 @@
+/**********>>>   GENERAL CSS   <<<**********/
+
+
+
+/********** >>>>> IMAGES <<<<< **********/
+
+.imageOne {
+    display: flex;
+    justify-content: center;
+    border: 4px solid blue;
+    max-width: 100%;
+    height: auto
+}
+
+.imageTwo {
+    width: 200px;
+    
+}
+
+/**********>>>>> TIPOGRAPHY <<<<<**********/
+
+p,
+h1,
+h2,
+h3,
+h4,
+table,
+li,
+a,
+fieldset,
+:placeholder-shown,
+input,
+span
+ {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+.fontColorOne,
+a.fontColorOne {
+    color: #097e41;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+a,
+tr.fontColorTwo {
+    color: white;
+}
+
+/*Utilizado en siguientes paginas: Condiciones, Recorridos */
+.fontColorThree {
+    color: #f5c60d;
+}
+
+/**********>>>>>   HEADER   <<<<<**********/
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+header {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: 2px solid red;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+nav ul {
+    display: flex ;
+    border: 2px solid orange;
+    width: 80%;
+    justify-content: space-evenly;
+    
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+ul.listOne li {
+    display: flex;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+.backgroundColorOne {
+    background-color: #097e41;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
+.backgroundColorTwo {
+    background-color: gray;
+}
+
+/**********>>>   MAIN   <<<**********/
+
+main {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Utilizado en siguientes paginas: Recorridos */
+.containerZero {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+/*Utilizado en siguientes paginas: Inicio */
+.containerOne {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #f5c60d;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
+
+/*Utilizado en siguientes paginas: Inicio */
+.containerTwo {
+
+    border: 4px solid blue;
+    text-align: center;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como reservar?, */
+.containerThree {
+    border: 10px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como reservar?, */
+.containerFour {
+    display: flex;
+    flex-direction: column;
+    image-orientation: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid orange;
+    width: 20%
+}
+
+/*Utilizado en siguientes paginas: Recorridos */
+.containerFive {
+    max-width: 560px;
+}
+
+/*Utilizado en siguientes paginas: Flota */
+.containerSix {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    border: 2px solid red;
+    gap: 10px;
+    width: 100%;
+}
+
+/*Utilizado en siguientes paginas: Flota */
+.containerSeven {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    align-items: center;
+     
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones y FAQ, Recorridos, Contacto, Reservar */
+hr {
+    border-width: 2px;
+    border-color: #097e41;
+}
+
+/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones y FAQ, Recorridos, Contacto, Reservar */
+a {
+    text-decoration: none;
+}
+
+/*Utilizado en siguientes paginas: Contacto, Reservar*/
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 20px;
+    border: 2px solid #f5c60d;
+}
+
+/*Utilizado en siguientes paginas: Contacto, Reservar*/
+input {
+    max-width: 500px;
+}
+
+/*Utilizado en siguientes paginas: Contacto, Reservar*/
+button {
+    margin-top: 10px;
+}
+
+/**********>>>>>   MEDIA QUERIES  <<<<<**********/
+
+/**********>>>>>   TABLET   <<<<<**********/
+
+@media screen and  (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: orange;
+    }
+    .containerFour {
+        width:40%
+    }
+
+    .containerSix {
+            display:grid;
+            grid-template-columns: auto auto auto;
+    }
+
+    .containerZero {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+}
+
+/**********>>>>>   MOBILE   <<<<<**********/
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: red;
+    }
+
+    .containerFour {
+        width: 100%;
+    }
+
+    .containerSix {
+        display:grid;
+        grid-template-columns: auto auto;
+}
+
+.containerZero {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+}
+}
