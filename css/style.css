@@ -241,9 +241,9 @@ button {
 /**********>>>>>   TABLET   <<<<<**********/
 
 @media screen and  (min-width: 768px) and (max-width: 1023px) {
-    body {
+    /*body {
         background-color: orange;
-    }
+    }*/
     .containerFour {
         width:40%
     }
@@ -262,14 +262,18 @@ button {
     .containerEight {
         width: 40%;
     }
+
+    .buttonOne {
+        border-left: none;
+    }
 }
 
 /**********>>>>>   MOBILE   <<<<<**********/
 
 @media screen and (max-width: 767px) {
-    body {
+    /*body {
         background-color: red;
-    }
+    }*/
 
     .containerFour {
         width: 100%;
@@ -288,5 +292,9 @@ button {
 
 .containerEight {
     width: 100%;
+}
+
+.buttonOne {
+    border-left: none;
 }
 }
