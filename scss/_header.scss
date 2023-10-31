@@ -1,39 +1,39 @@
 header {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
 
-  nav ul {
-    display: flex;
-    width: 80%;
-    justify-content: space-evenly;
-  }
+nav ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
 
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  .navbar {
-    border-bottom: 2px solid #097e41;
-    border-top: 20px solid #097e41;
-    background-color: white;
-  }
+.navbar {
+  border-bottom: 2px solid $color-fontColorOne;
+  border-top: 20px solid $color-fontColorOne;
+  background-color: white;
+}
 
-  .buttonOne {
-    border-left: 2px solid #097e41;
-  }
+.buttonOne {
+  border-left: 2px solid $color-fontColorOne;
+}
 
-  ul.listOne li {
-    display: flex;
-  }
+ul.listOne li {
+  display: flex;
+}
 
-  .backgroundColorOne {
-    background-color: #097e41;
-  }
-  
-  .backgroundColorTwo {
-    background-color: orange;
-    font-weight: bold;
-    border-radius: 5px;
-  }
+.backgroundColorOne {
+  background-color: $color-fontColorOne;
+}
+
+.backgroundColorTwo {
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 5px;
+}

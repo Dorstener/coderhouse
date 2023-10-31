@@ -23,13 +23,13 @@ h4 {
 }
 
 .fontColorOne, a.fontColorOne {
-    color: #097e41;
+    color: $color-fontColorOne; 
   }
 
   a, tr.fontColorTwo {
-    color: white;
+    color: $color-fontColorTwo;
   }
 
   .fontColorThree {
-    color: #f5c60d;
+    color: $color-fontColorThree;
   }
