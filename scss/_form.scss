@@ -1,0 +1,19 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 20px;
+    border: 2px solid #f5c60d;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.spaceOne {
+    padding-top: 10px;
+}
+
+.widthOne {
+    width: 100%;
+}
