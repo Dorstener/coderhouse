@@ -69,10 +69,11 @@ nav ul {
   justify-content: space-evenly;
 }
 
+/*
 a {
   text-decoration: none;
 }
-
+*/
 .navbar {
   border-bottom: 2px solid #097e41;
   border-top: 20px solid #097e41;
@@ -189,6 +190,12 @@ hr {
 .containerNine {
   margin: 20px 20px;
   max-width: 600px;
+}
+
+/* MIXIN */
+.anchorOne {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* TABLET */
