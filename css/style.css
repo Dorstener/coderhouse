@@ -1,308 +1,244 @@
-/**********>>>   GENERAL CSS   <<<**********/
-
-
-
-/********** >>>>> IMAGES <<<<< **********/
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-.imageOne {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-    height: auto;
-}
-
-/*Utilizado en siguientes paginas: Flota, */
-.imageTwo {
-    width: 200px;
-}
-
-/**********>>>>> TIPOGRAPHY <<<<<**********/
-
-p,
-h1,
-h2,
-h3,
-h4,
-table,
-li,
-a,
-fieldset,
-:placeholder-shown,
-input,
-span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+/* VARIABLES */
+/* PARTIALS */
+p, h1, h2, h3, h4, table, li, a, fieldset, :placeholder-shown, input, span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-/*Utilizado en siguientes paginas: Index, Como Reservar?, Flota, Condiciones, Recorridos,   */
 h1 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
-/*Utilizado en siguientes paginas: Condiciones,  */
 h2 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
-/*Utilizado en siguientes paginas: Index, Flota, Condiciones, Recorridos,  */
 h3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
-/*Utilizado en siguientes paginas: Como Reservar?, Condiciones,  */
 h4 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-.fontColorOne,
-a.fontColorOne {
-    color: #097e41;
+.fontColorOne, a.fontColorOne {
+  color: #097e41;
 }
 
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-a,
-tr.fontColorTwo {
-    color: white;
+a, tr.fontColorTwo {
+  color: white;
 }
 
-/*Utilizado en siguientes paginas: Flota, Condiciones, Recorridos */
 .fontColorThree {
-    color: #f5c60d;
+  color: #f5c60d;
 }
-
-/**********>>>>>   HEADER   <<<<<**********/
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-header {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-nav ul {
-    display: flex;
-    width: 80%;
-    justify-content: space-evenly;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones y FAQ, Recorridos, Contacto, Reservar */
-a {
-    text-decoration: none;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar  */
-.navbar {
-    border-bottom: 2px solid #097e41;
-    border-top: 20px solid #097e41;
-    background-color: white;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar  */
-.buttonOne {
-    border-left: 2px solid #097e41;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-ul.listOne li {
-    display: flex;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-.backgroundColorOne {
-    background-color: #097e41;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones, Recorridos, Contacto, Reservar */
-.backgroundColorTwo {
-    background-color: orange;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-/**********>>>   MAIN   <<<**********/
 
 main {
-    margin: 15px 30px;
-    display: flex;
-    flex-direction: column;
+  margin: 15px 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-/*Utilizado en siguientes paginas: Contacto, Reservar*/
+.spaceTwo {
+  margin-top: 50px;
+}
+
+.imageOne {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.imageTwo {
+  width: 200px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+/*
+a {
+  text-decoration: none;
+}
+*/
+.navbar {
+  border-bottom: 2px solid #097e41;
+  border-top: 20px solid #097e41;
+  background-color: white;
+}
+
+.buttonOne {
+  border-left: 2px solid #097e41;
+}
+
+ul.listOne li {
+  display: flex;
+}
+
+.backgroundColorOne {
+  background-color: #097e41;
+}
+
+.backgroundColorTwo {
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 fieldset {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin-top: 20px;
-    border: 2px solid #f5c60d;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-top: 20px;
+  border: 2px solid #f5c60d;
 }
 
-/*Utilizado en siguientes paginas: Contacto, Reservar*/
 button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-/*Utilizado en siguientes paginas: Recorridos */
+.spaceOne {
+  padding-top: 10px;
+}
+
+.widthOne {
+  width: 100%;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #097e41;
+}
+
 .containerZero {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.containerOne {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f5c60d;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+}
+
+.containerTwo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.containerThree {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.containerFour {
+  display: flex;
+  flex-direction: column;
+  image-orientation: center;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+}
+
+.containerFive {
+  max-width: 560px;
+}
+
+.containerSix {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+}
+
+.containerSeven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerEight {
+  display: flex;
+  flex-direction: column;
+  image-orientation: center;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+}
+
+.containerNine {
+  margin: 20px 20px;
+  max-width: 600px;
+}
+
+/* MIXIN */
+.anchorOne {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .containerFour {
+    width: 40%;
+  }
+  .containerSix {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .containerZero {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+  .containerEight {
+    width: 40%;
+  }
+  .buttonOne {
+    border-left: none;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .containerFour {
+    width: 100%;
+  }
+  .containerSix {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-around;
-    gap: 50px;
-}
-
-/*Utilizado en siguientes paginas: Inicio */
-.containerOne {
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #f5c60d;
-    padding: 5px 10px 5px 10px;
-    margin-top: 10px;
-}
-
-/*Utilizado en siguientes paginas: Inicio */
-.containerTwo {
-    text-align: center;
-    margin-top: 40px;
-}
-
-/*Utilizado en siguientes paginas: Inicio, Como reservar?, */
-.containerThree {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-/*Utilizado en siguientes paginas: Inicio,  */
-.containerFour {
-    display: flex;
-    flex-direction: column;
-    image-orientation: center;
-    text-align: center;
-    align-items: center;
-    width: 30%;
-}
-
-/*Utilizado en siguientes paginas: Recorridos */
-.containerFive {
-    max-width: 560px;
-}
-
-/*Utilizado en siguientes paginas: Flota */
-.containerSix {
+  }
+  .containerZero {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     justify-content: space-around;
-    gap: 10px;
+  }
+  .containerEight {
     width: 100%;
+  }
+  .buttonOne {
+    border-left: none;
+  }
 }
 
-/*Utilizado en siguientes paginas: Flota */
-.containerSeven {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*Utilizado en siguientes paginas: Como Reservar?,  */
-.containerEight {
-    display: flex;
-    flex-direction: column;
-    image-orientation: center;
-    text-align: center;
-    align-items: center;
-    width: 20%;
-}
-
-/*Utilizado en siguientes paginas: Contacto, Reservar */
-.containerNine {
-    margin: 20px 20px;
-    max-width: 600px;
-}
-
-/*Utilizado en siguientes paginas: Como Reservar?,  */
-.spaceOne {
-    padding-top: 10px;
-}
-
-/*Utilizado en siguientes paginas: Flota */
-.spaceTwo {
-    margin-top: 50px;
-}
-
-/*Utilizado en siguientes paginas: Contacto, Reservar*/
-.widthOne {
-    width: 100%;
-}
-
-/**********>>>>>   FOOTER   <<<<<**********/
-
-/*Utilizado en siguientes paginas: Inicio, Como Reservar?, Flota, Condiciones y FAQ, Recorridos, Contacto, Reservar */
-hr {
-    border-width: 2px;
-    border-color: #097e41;
-}
-
-/**********>>>>>   MEDIA QUERIES  <<<<<**********/
-
-/**********>>>>>   TABLET   <<<<<**********/
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .containerFour {
-        width: 40%
-    }
-
-    .containerSix {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-
-    .containerZero {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: space-around;
-    }
-
-    .containerEight {
-        width: 40%;
-    }
-
-    .buttonOne {
-        border-left: none;
-    }
-}
-
-/**********>>>>>   MOBILE   <<<<<**********/
-
-@media screen and (max-width: 767px) {
-
-    .containerFour {
-        width: 100%;
-    }
-
-    .containerSix {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    .containerZero {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: space-around;
-    }
-
-    .containerEight {
-        width: 100%;
-    }
-
-    .buttonOne {
-        border-left: none;
-    }
-}
+/*# sourceMappingURL=style.css.map */
