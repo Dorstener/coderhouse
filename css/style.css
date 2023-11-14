@@ -48,7 +48,6 @@ main {
 
 .imageOne {
   display: flex;
-  justify-content: left;
   max-width: 100%;
   height: 500px;
   background-image: url(../img/iguazu4.jpg);
@@ -56,7 +55,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageTwo {
@@ -68,7 +67,7 @@ main {
   width: 250px;
   height: 250px;
   margin-left: 70px;
-  opacity: 0.7;
+  filter: brightness(0.9);
   background-image: url(../img/logo.jpg);
   background-size: contain;
   background-position: top center;
@@ -85,7 +84,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageFive {
@@ -98,7 +97,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageSix {
@@ -111,7 +110,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageSeven {
@@ -124,7 +123,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageEight {
@@ -137,7 +136,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageNine {
@@ -150,7 +149,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
-  opacity: 0.7;
+  filter: brightness(0.9);
 }
 
 .imageEleven {
@@ -162,6 +161,12 @@ main {
   background-size: contain;
   background-position: top center;
   border-radius: 100px;
+}
+
+.imageTwelve {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 50px;
 }
 
 header {
@@ -176,15 +181,15 @@ nav ul {
   justify-content: space-evenly;
 }
 
-/*
-a {
-  text-decoration: none;
+.navegador {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 80%;
 }
-*/
-.navbar {
-  border-bottom: 2px solid #097e41;
-  border-top: 20px solid #097e41;
-  background-color: white;
+
+.navbar-transparent {
+  opacity: 1;
 }
 
 .buttonOne {
@@ -264,7 +269,10 @@ hr {
   image-orientation: center;
   text-align: center;
   align-items: center;
-  width: 30%;
+  width: 20%;
+  height: 250px;
+  background: linear-gradient(to right, #359B5B, #55B876);
+  border-radius: 13px;
 }
 
 .containerFive {
@@ -297,6 +305,14 @@ hr {
 .containerNine {
   margin: 20px 20px;
   max-width: 600px;
+}
+
+.containerTen {
+  margin-top: 20px;
+}
+
+.containerEleven {
+  margin: 0px 10px;
 }
 
 /* MIXIN */

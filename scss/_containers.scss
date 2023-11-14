@@ -32,7 +32,11 @@
     image-orientation: center;
     text-align: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
+    height: 250px;
+    background: linear-gradient(to right,#359B5B, #55B876);
+    border-radius: 13px;
+
 }
 
 .containerFive {
@@ -68,3 +72,10 @@
     max-width: 600px;
 }
 
+.containerTen {
+    margin-top: 20px;
+}
+
+.containerEleven {
+    margin: 0px 10px;
+}

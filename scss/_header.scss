@@ -9,15 +9,16 @@ nav ul {
   width: 80%;
   justify-content: space-evenly;
 }
-/*
-a {
-  text-decoration: none;
+
+.navegador {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 80%;
 }
-*/
-.navbar {
-  border-bottom: 2px solid $color-fontColorOne;
-  border-top: 20px solid $color-fontColorOne;
-  background-color: white;
+
+.navbar-transparent{
+  opacity: 1;
 }
 
 .buttonOne {
