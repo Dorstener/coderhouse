@@ -15,6 +15,23 @@ nav ul {
   justify-content: flex-end;
   align-items: flex-start;
   width: 80%;
+
+  a:link {
+    color:red;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: pink;
+    background-color: orange;
+  }
+
+  a:active {
+    color: black;
+  }
 }
 
 .navbar-transparent{
