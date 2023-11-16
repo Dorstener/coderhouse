@@ -187,19 +187,6 @@ nav ul {
   align-items: flex-start;
   width: 80%;
 }
-.navegador a:link {
-  color: red;
-}
-.navegador a:visited {
-  color: white;
-}
-.navegador a:hover {
-  color: pink;
-  background-color: orange;
-}
-.navegador a:active {
-  color: black;
-}
 
 .navbar-transparent {
   opacity: 1;
