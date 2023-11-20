@@ -22,7 +22,7 @@ nav ul {
 }
 
 .buttonOne {
-  border-left: 2px solid $color-fontColorOne;
+  background-color: rgba(144, 238, 144, 0.4);
 }
 
 ul.listOne li {
@@ -34,7 +34,6 @@ ul.listOne li {
 }
 
 .backgroundColorTwo {
-  background-color: orange;
   font-weight: bold;
   border-radius: 5px;
 }
