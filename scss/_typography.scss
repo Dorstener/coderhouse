@@ -1,35 +1,52 @@
-p, h1, h2, h3, h4, table, li, a, fieldset, :placeholder-shown, input, span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+p,
+h1,
+h2,
+h3,
+h4,
+table,
+li,
+a,
+fieldset,
+:placeholder-shown,
+input,
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  html {
-    font-size: 16px;
-  }
+html {
+  font-size: 16px;
+}
 
-  h1 {
-    font-size: 1.8rem;
-  }
+h1 {
+  font-size: 1.8rem;
+}
 
-  h2 {
-    font-size: 1.6rem;
+h2 {
+  font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 h4 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.fontColorOne, a.fontColorOne {
-    color: $color-fontColorOne; 
-  }
+.fontColorOne,
+a.fontColorOne {
+  color: $color-fontColorOne;
+}
 
-  a, tr.fontColorTwo {
-    color: $color-fontColorTwo;
-  }
+a,
+tr.fontColorTwo {
+  color: $color-fontColorTwo;
+}
 
-  .fontColorThree {
-    color: $color-fontColorThree;
-  }
+.fontColorThree {
+  color: $color-fontColorThree;
+}
+
+section div div p {
+  font-size: 0.8rem;
+}

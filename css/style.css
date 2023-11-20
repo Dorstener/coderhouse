@@ -1,6 +1,17 @@
 /* VARIABLES */
 /* PARTIALS */
-p, h1, h2, h3, h4, table, li, a, fieldset, :placeholder-shown, input, span {
+p,
+h1,
+h2,
+h3,
+h4,
+table,
+li,
+a,
+fieldset,
+:placeholder-shown,
+input,
+span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -24,16 +35,22 @@ h4 {
   font-size: 1.2rem;
 }
 
-.fontColorOne, a.fontColorOne {
+.fontColorOne,
+a.fontColorOne {
   color: #097e41;
 }
 
-a, tr.fontColorTwo {
+a,
+tr.fontColorTwo {
   color: white;
 }
 
 .fontColorThree {
   color: #f5c60d;
+}
+
+section div div p {
+  font-size: 0.8rem;
 }
 
 html {
@@ -68,8 +85,8 @@ main {
 
 .imageThree {
   background-color: orange;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   margin-left: 70px;
   filter: brightness(0.9);
   background-image: url(../img/logo.jpg);
@@ -189,7 +206,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  width: 80%;
+  width: 100%;
 }
 
 .navbar-transparent {
@@ -325,9 +342,28 @@ hr {
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+  }
+  .navbar-toggler[aria-expanded=true] {
+    display: none;
+  }
+  .navbar-collapse.show {
+    display: block;
+  }
+  .containerThree {
+    margin-top: 0px;
+  }
   .containerFour {
     width: 40%;
+    margin-bottom: 20px;
   }
   .containerSix {
     display: grid;
@@ -344,11 +380,24 @@ hr {
   .buttonOne {
     border-left: none;
   }
+  section div div p {
+    font-size: 0.8rem;
+  }
+  main section h1 {
+    margin-bottom: 30px;
+  }
 }
 /* MOBILE */
 @media screen and (max-width: 767px) {
+  main section h1 {
+    margin-bottom: 30px;
+  }
+  .containerThree {
+    margin-top: 0px;
+  }
   .containerFour {
     width: 100%;
+    margin-bottom: 20px;
   }
   .containerSix {
     display: grid;
