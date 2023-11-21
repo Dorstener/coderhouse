@@ -190,6 +190,10 @@ main {
   height: 50px;
 }
 
+.imageThirdteen {
+  margin-bottom: 20px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -215,6 +219,7 @@ nav ul {
 
 .buttonOne {
   background-color: rgba(144, 238, 144, 0.4);
+  font-weight: bold;
 }
 
 ul.listOne li {

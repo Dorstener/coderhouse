@@ -62,46 +62,49 @@
             <fieldset>
                 <div class="containerNine">
                     <legend class="fontColorOne">Datos Personales</legend>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="ejemplo: Lionel" required
-                        class="widthOne"><br>
-                    <label for="apellido">Apellido:</label><br>
-                    <input type="text" id="apellido" name="apellido" placeholder="ejemplo: Messi" required
-                        class="widthOne"><br>
-                    <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" placeholder="ejemplo: lionel.messi@gmail.com" required
-                        class="widthOne"><br>
-                    <label for="telefono"> Telefono:</label><br>
-                    <input type="text" id="telefono" name="telefono" placeholder="ejemplo:+54336433881" required
-                        class="widthOne"><br>
-                    <label for="whatsapp">Whatsapp:</label><br>
-                    <input type="text" id="whatsapp" name="whatsapp" placeholder="ejemplo:+54336433881" required
-                        class="widthOne"><br>
+                    <div class="spaceOne">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required
+                            class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="email" id="email" name="email" placeholder="E-mail" required class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="telefono" name="telefono" placeholder="Telefono de contacto" required
+                            class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="whatsapp" name="whatsapp" placeholder="Número de Whatsapp" required
+                            class="widthOne">
+                    </div>
                 </div>
             </fieldset>
-            <br>
+
             <fieldset>
                 <div class="containerNine">
                     <legend class="fontColorOne">Datos de su reserva</legend>
                     <p>Motivo de viaje:</p>
                     <input type="radio" id="viaje de negocios" name="motivo de viaje"><label for="viaje de negocios">
                         viaje de
-                        negocios</label><br>
+                        negocios</label>
                     <input type="radio" id="viaje de placer" name="motivo de viaje"><label for="viaje de placer"> viaje
                         de
                         placer</label>
-                    <br>
-                    <br>
-                    <label for="fecha y hora de retiro"> Fecha y Horario de Retiro </label> <input type="datetime-local"
-                        id="fecha y hora de retiro" name="fecha y hora de retiro">
-                    <br>
-                    <br>
-                    <label for="fecha y hora de devolucion"> Fecha y Horario de Devolucion</label> <input
-                        type="datetime-local" id="fecha y hora de devolucion" name="fecha y hora de devolucion">
-                    <br>
-                    <br>
-                    <P>
+                    <div class="spaceOne">
+                        <label for="fecha y hora de retiro"> Fecha y Horario de Retiro </label> <input
+                            type="datetime-local" id="fecha y hora de retiro" name="fecha y hora de retiro">
+                    </div>
+                    <div class="spaceOne">
+                        <label for="fecha y hora de devolucion"> Fecha y Horario de Devolucion</label> <input
+                            type="datetime-local" id="fecha y hora de devolucion" name="fecha y hora de devolucion">
+                    </div>
+                    <div class="spaceOne">
                         <label for="categoria de auto"> Seleccione la catergoria de auto que prefiere:</label>
+                    </div>
+                    <div class="spaceOne">
                         <input list="categoria de auto" class="widthOne">
                         <datalist id="categoria de auto">
                             <option value="Economico (E)">
@@ -111,18 +114,18 @@
                             <option value="Mono Volumen (P)>">
                             <option value="SUV">
                         </datalist>
-                    </p>
-                    <p>Comentarios Adicionales</p>
-                    <textarea name="message"
-                        placeholder="Deje aqui cualquier comentario adicional o requerimiento extra no cubierto en este formulario"
-                        class="widthOne"></textarea>
+                    </div>
+<div class="spaceOne">
+                        <p>Comentarios Adicionales</p>
+                        <textarea name="message"
+                            placeholder="Deje aqui cualquier comentario adicional o requerimiento extra no cubierto en este formulario"
+                            class="widthOne"></textarea>
+                    </div>
                 </div>
             </fieldset>
-            <br>
+            <div class="spaceTwo">
             <input type="submit" value="Submit">
-            <br>
-            <br>
-
+        </div>
         </form>
 
     </main>
