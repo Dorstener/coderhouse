@@ -335,6 +335,31 @@ hr {
   margin: 0px 10px;
 }
 
+.containerTwelve {
+  display: flex;
+}
+
+.containerThirdteen {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+.facebook {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
+.instagram {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
+.whatsapp {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
 /* MIXIN */
 .anchorOne {
   text-decoration: none;
@@ -343,21 +368,6 @@ hr {
 
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1400px) {
-  .navbar-collapse {
-    display: none;
-  }
-  .navbar-toggler {
-    display: block;
-  }
-  .navbar-toggler-icon {
-    display: inline-block;
-  }
-  .navbar-toggler[aria-expanded=true] {
-    display: none;
-  }
-  .navbar-collapse.show {
-    display: block;
-  }
   .containerThree {
     margin-top: 0px;
   }
