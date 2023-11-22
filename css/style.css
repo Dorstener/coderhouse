@@ -19,20 +19,28 @@ html {
   font-size: 16px;
 }
 
-h1 {
+.fontSizeOne {
   font-size: 1.8rem;
 }
 
-h2 {
+.fontSizeTwo {
   font-size: 1.6rem;
 }
 
-h3 {
+.fontSizeThree {
   font-size: 1.4rem;
 }
 
-h4 {
+.fontSizeFour {
   font-size: 1.2rem;
+}
+
+.fontSizeFive {
+  font-size: 1rem;
+}
+
+.fontSizeSix {
+  font-size: 0.8rem;
 }
 
 .fontColorOne,
