@@ -315,7 +315,6 @@ hr {
 .containerSix {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
   gap: 10px;
   width: 100%;
 }
@@ -324,6 +323,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 390.5px;
 }
 
 .containerEight {
