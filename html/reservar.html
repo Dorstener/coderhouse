@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Obtén una cotización personalizada para tu alquiler de auto en Iguazú, Argentina, con el sencillo formulario de cotización de Aspen Car Rental. Planifica tu viaje con presupuesto y descubre nuestras opciones de alquiler de autos adaptadas a tus necesidades. ¡Completa el formulario y comienza a explorar la región con comodidad!">
+    <script src="https://kit.fontawesome.com/80a863646c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -18,77 +19,92 @@
 <body>
     <header class="fontColorOne fontColorTwo backgroundColorOne">
         <div class="imageOne">
-            <a href="../index.html"> <img src="../img/logo.jpg" alt="logo de Aspen Rent a Car"></a>
-        </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active buttonOne" aria-current="page" href="comoreservar.html">Como
-                            reservar?</a>
-                        <a class="nav-link buttonOne" href="flota.html">Flota</a>
-                        <a class="nav-link buttonOne" href="condiciones.html">Preguntas Frequentes</a>
-                        <a class="nav-link buttonOne" href="recorridos.html">Recorridos</a>
-                        <a class="nav-link buttonOne" href="contacto.html">Contacto</a>
-                        <a class="nav-link backgroundColorTwo" href="reservar.html">Reservar</a>
-                    </div>
+            <a href="../index.html">
+                <div class="imageThree">
                 </div>
+            </a>
+            <div class="navegador" role="navigation">
+                <nav class="navbar navbar-expand-xxl">
+                    <div class="container-fluid">
+                        <button class="btn btn-outline-success me-2 buttonOne" type="button"><a
+                                class="navbar-brand nav-link" aria-current="page"
+                                href="../index.html">Inicio</a></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a class="nav-link"
+                                        aria-current="page" href="comoreservar.html">Como
+                                        reservar?</a></button>
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a class="nav-link"
+                                        aria-current="page" href="flota.html">Flota</a></button>
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a class="nav-link"
+                                        aria-current="page" href="condiciones.html">Preguntas Frequentes</a></button>
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a class="nav-link"
+                                        aria-current="page" href="recorridos.html">Recorridos</a></button>
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a class="nav-link"
+                                        aria-current="page" href="contacto.html">Contacto</a></button>
+                                <button class="btn btn-outline-success me-2 buttonOne" type="button"><a
+                                        class="nav-link active backgroundColorTwo" aria-current="page"
+                                        href="reservar.html">Reservar</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
-
     </header>
 
     <main>
         <form>
             <fieldset>
                 <div class="containerNine">
-                    <legend class="fontColorOne">Datos Personales</legend>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="ejemplo: Lionel" required
-                        class="widthOne"><br>
-                    <label for="apellido">Apellido:</label><br>
-                    <input type="text" id="apellido" name="apellido" placeholder="ejemplo: Messi" required
-                        class="widthOne"><br>
-                    <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" placeholder="ejemplo: lionel.messi@gmail.com" required
-                        class="widthOne"><br>
-                    <label for="telefono"> Telefono:</label><br>
-                    <input type="text" id="telefono" name="telefono" placeholder="ejemplo:+54336433881" required
-                        class="widthOne"><br>
-                    <label for="whatsapp">Whatsapp:</label><br>
-                    <input type="text" id="whatsapp" name="whatsapp" placeholder="ejemplo:+54336433881" required
-                        class="widthOne"><br>
+                    <h1><legend class="fontColorOne fontSizeThree">Datos Personales</legend></h1>
+                    <div class="spaceOne">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required
+                            class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="email" id="email" name="email" placeholder="E-mail" required class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="telefono" name="telefono" placeholder="Telefono de contacto" required
+                            class="widthOne">
+                    </div>
+                    <div class="spaceOne">
+                        <input type="text" id="whatsapp" name="whatsapp" placeholder="Número de Whatsapp" required
+                            class="widthOne">
+                    </div>
                 </div>
             </fieldset>
-            <br>
+
             <fieldset>
                 <div class="containerNine">
-                    <legend class="fontColorOne">Datos de su reserva</legend>
+                    <legend class="fontColorOne fontSizeThree">Datos de su reserva</legend>
                     <p>Motivo de viaje:</p>
                     <input type="radio" id="viaje de negocios" name="motivo de viaje"><label for="viaje de negocios">
                         viaje de
-                        negocios</label><br>
+                        negocios</label>
                     <input type="radio" id="viaje de placer" name="motivo de viaje"><label for="viaje de placer"> viaje
                         de
                         placer</label>
-                    <br>
-                    <br>
-                    <label for="fecha y hora de retiro"> Fecha y Horario de Retiro </label> <input type="datetime-local"
-                        id="fecha y hora de retiro" name="fecha y hora de retiro">
-                    <br>
-                    <br>
-                    <label for="fecha y hora de devolucion"> Fecha y Horario de Devolucion</label> <input
-                        type="datetime-local" id="fecha y hora de devolucion" name="fecha y hora de devolucion">
-                    <br>
-                    <br>
-                    <P>
+                    <div class="spaceOne">
+                        <label for="fecha y hora de retiro"> Fecha y Horario de Retiro </label> <input
+                            type="datetime-local" id="fecha y hora de retiro" name="fecha y hora de retiro">
+                    </div>
+                    <div class="spaceOne">
+                        <label for="fecha y hora de devolucion"> Fecha y Horario de Devolucion</label> <input
+                            type="datetime-local" id="fecha y hora de devolucion" name="fecha y hora de devolucion">
+                    </div>
+                    <div class="spaceOne">
                         <label for="categoria de auto"> Seleccione la catergoria de auto que prefiere:</label>
+                    </div>
+                    <div class="spaceOne">
                         <input list="categoria de auto" class="widthOne">
                         <datalist id="categoria de auto">
                             <option value="Economico (E)">
@@ -98,24 +114,49 @@
                             <option value="Mono Volumen (P)>">
                             <option value="SUV">
                         </datalist>
-                    </p>
-                    <p>Comentarios Adicionales</p>
-                    <textarea name="message"
-                        placeholder="Deje aqui cualquier comentario adicional o requerimiento extra no cubierto en este formulario"
-                        class="widthOne"></textarea>
+                    </div>
+<div class="spaceOne">
+                        <p>Comentarios Adicionales</p>
+                        <textarea name="message"
+                            placeholder="Deje aqui cualquier comentario adicional o requerimiento extra no cubierto en este formulario"
+                            class="widthOne"></textarea>
+                    </div>
                 </div>
             </fieldset>
-            <br>
+            <div class="spaceTwo">
             <input type="submit" value="Submit">
-            <br>
-            <br>
-
+        </div>
         </form>
 
     </main>
     <hr>
     <footer>
-        <img src="../img/logo.jpg" alt="logo de Aspen Rent a Car">
+        <div class="containerTwelve">
+            <a href="../index.html">
+                <div class="imageEleven">
+                </div>
+            </a>
+            <div class="containerFifthteen">
+                <span class="containerFourteen fontSizeFive">Aspen Rent a Car</span>
+                <span class="containerFourteen fontSizeSix">Mariano Moreno 58 (N3370AAE)</span>
+                <span class="containerFourteen fontSizeSix">Puerto Iguazu, Misiones</span>
+                <span class="containerFourteen fontSizeSix">Argentina</span>
+            </div>
+            <div class="containerThirdteen">
+                <div class="facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100062966032948" target="_blank"><i
+                            class="fa-brands fa-square-facebook fa-2xl" style="color: #0156e9;"> </i></a>
+                </div>
+                <div class="instagram">
+                    <a href="https://www.instagram.com/aspenrentacar/" target="_blank"><i
+                            class="fa-brands fa-square-instagram fa-2xl" style="color: #c224a5;"></i></a>
+                </div>
+                <div class="whatsapp">
+                    <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #30df33;"></i>
+                </div>
+
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

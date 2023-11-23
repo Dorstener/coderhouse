@@ -32,7 +32,11 @@
     image-orientation: center;
     text-align: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
+    height: 250px;
+    background: linear-gradient(to right,#359B5B, #55B876);
+    border-radius: 13px;
+
 }
 
 .containerFive {
@@ -42,7 +46,6 @@
 .containerSix {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-content: space-around;
     gap: 10px;
     width: 100%;
 }
@@ -51,6 +54,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 390.5px;
 }
 
 
@@ -68,3 +72,48 @@
     max-width: 600px;
 }
 
+.containerTen {
+    margin-top: 20px;
+}
+
+.containerEleven {
+    margin: 0px 10px;
+}
+
+.containerTwelve {
+    display:flex;
+    
+}
+
+.containerThirdteen {
+    display: flex;
+    width: 15%;
+    justify-content: flex-end;
+}
+
+.containerFourteen{
+    display: block;
+}
+
+.containerFifthteen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+
+.facebook {
+    display: inline-block;
+    margin: 65px 20px;
+}
+
+.instagram {
+    display: inline-block;
+    margin: 65px 20px;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin: 65px 20px;
+}

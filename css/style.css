@@ -1,6 +1,17 @@
 /* VARIABLES */
 /* PARTIALS */
-p, h1, h2, h3, h4, table, li, a, fieldset, :placeholder-shown, input, span {
+p,
+h1,
+h2,
+h3,
+h4,
+table,
+li,
+a,
+fieldset,
+:placeholder-shown,
+input,
+span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -8,32 +19,46 @@ html {
   font-size: 16px;
 }
 
-h1 {
+.fontSizeOne {
   font-size: 1.8rem;
 }
 
-h2 {
+.fontSizeTwo {
   font-size: 1.6rem;
 }
 
-h3 {
+.fontSizeThree {
   font-size: 1.4rem;
 }
 
-h4 {
+.fontSizeFour {
   font-size: 1.2rem;
 }
 
-.fontColorOne, a.fontColorOne {
+.fontSizeFive {
+  font-size: 1rem;
+}
+
+.fontSizeSix {
+  font-size: 0.8rem;
+}
+
+.fontColorOne,
+a.fontColorOne {
   color: #097e41;
 }
 
-a, tr.fontColorTwo {
+a,
+tr.fontColorTwo {
   color: white;
 }
 
 .fontColorThree {
   color: #f5c60d;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 main {
@@ -48,13 +73,129 @@ main {
 
 .imageOne {
   display: flex;
-  justify-content: center;
   max-width: 100%;
-  height: auto;
+  height: 500px;
+  background-image: url(../img/iguazu4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  filter: brightness(0.9);
 }
 
 .imageTwo {
   width: 200px;
+}
+
+.imageThree {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+  margin-left: 70px;
+  filter: brightness(0.9);
+  background-image: url(../img/logo.jpg);
+  background-size: contain;
+  background-position: top center;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.imageFour {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/iguazu3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  filter: brightness(0.9);
+}
+
+.imageFive {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/iguazu4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  filter: brightness(0.9);
+}
+
+.imageSix {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/iguazu2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  filter: brightness(0.9);
+}
+
+.imageSeven {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/iguazu1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: brightness(0.9);
+}
+
+.imageEight {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/sanignacio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  filter: brightness(0.9);
+}
+
+.imageNine {
+  display: flex;
+  justify-content: left;
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../img/hito.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  filter: brightness(0.9);
+}
+
+.imageEleven {
+  width: 100px;
+  height: 100px;
+  margin: 20px 70px;
+  opacity: 1;
+  background-image: url(../img/logo.jpg);
+  background-size: contain;
+  background-position: top center;
+  border-radius: 100px;
+}
+
+.imageTwelve {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 50px;
+}
+
+.imageThirdteen {
+  margin-bottom: 20px;
 }
 
 header {
@@ -69,19 +210,20 @@ nav ul {
   justify-content: space-evenly;
 }
 
-/*
-a {
-  text-decoration: none;
+.navegador {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
 }
-*/
-.navbar {
-  border-bottom: 2px solid #097e41;
-  border-top: 20px solid #097e41;
-  background-color: white;
+
+.navbar-transparent {
+  opacity: 1;
 }
 
 .buttonOne {
-  border-left: 2px solid #097e41;
+  background-color: rgba(144, 238, 144, 0.4);
+  font-weight: bold;
 }
 
 ul.listOne li {
@@ -93,9 +235,12 @@ ul.listOne li {
 }
 
 .backgroundColorTwo {
-  background-color: orange;
   font-weight: bold;
   border-radius: 5px;
+}
+
+form {
+  margin: auto;
 }
 
 fieldset {
@@ -108,6 +253,10 @@ fieldset {
 
 button {
   margin-top: 10px;
+}
+
+textarea {
+  height: 20vh;
 }
 
 .spaceOne {
@@ -157,7 +306,10 @@ hr {
   image-orientation: center;
   text-align: center;
   align-items: center;
-  width: 30%;
+  width: 20%;
+  height: 250px;
+  background: linear-gradient(to right, #359B5B, #55B876);
+  border-radius: 13px;
 }
 
 .containerFive {
@@ -167,7 +319,6 @@ hr {
 .containerSix {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
   gap: 10px;
   width: 100%;
 }
@@ -176,6 +327,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 390.5px;
 }
 
 .containerEight {
@@ -192,6 +344,51 @@ hr {
   max-width: 600px;
 }
 
+.containerTen {
+  margin-top: 20px;
+}
+
+.containerEleven {
+  margin: 0px 10px;
+}
+
+.containerTwelve {
+  display: flex;
+}
+
+.containerThirdteen {
+  display: flex;
+  width: 15%;
+  justify-content: flex-end;
+}
+
+.containerFourteen {
+  display: block;
+}
+
+.containerFifthteen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+
+.facebook {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
+.instagram {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
+.whatsapp {
+  display: inline-block;
+  margin: 65px 20px;
+}
+
 /* MIXIN */
 .anchorOne {
   text-decoration: none;
@@ -199,9 +396,13 @@ hr {
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .containerThree {
+    margin-top: 0px;
+  }
   .containerFour {
     width: 40%;
+    margin-bottom: 20px;
   }
   .containerSix {
     display: grid;
@@ -218,11 +419,24 @@ hr {
   .buttonOne {
     border-left: none;
   }
+  section div div p {
+    font-size: 0.8rem;
+  }
+  main section h1 {
+    margin-bottom: 30px;
+  }
 }
 /* MOBILE */
 @media screen and (max-width: 767px) {
+  main section h1 {
+    margin-bottom: 30px;
+  }
+  .containerThree {
+    margin-top: 0px;
+  }
   .containerFour {
     width: 100%;
+    margin-bottom: 20px;
   }
   .containerSix {
     display: grid;
