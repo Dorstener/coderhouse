@@ -57,10 +57,6 @@ tr.fontColorTwo {
   color: #f5c60d;
 }
 
-section div div p {
-  font-size: 0.8rem;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -257,6 +253,10 @@ fieldset {
 
 button {
   margin-top: 10px;
+}
+
+textarea {
+  height: 20vh;
 }
 
 .spaceOne {
