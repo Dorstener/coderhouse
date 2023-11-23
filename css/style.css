@@ -377,16 +377,19 @@ hr {
 .facebook {
   display: inline-block;
   margin: 65px 20px;
+  width: 10%;
 }
 
 .instagram {
   display: inline-block;
   margin: 65px 20px;
+  width: 10%;
 }
 
 .whatsapp {
   display: inline-block;
   margin: 65px 20px;
+  width: 10%;
 }
 
 /* MIXIN */
@@ -449,6 +452,12 @@ hr {
   }
   .containerEight {
     width: 100%;
+  }
+  .containerFourteen {
+    display: none;
+  }
+  .containerThirdteen {
+    margin: 0px 30px 0px 0px;
   }
   .buttonOne {
     border-left: none;
