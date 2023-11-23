@@ -243,6 +243,10 @@ ul.listOne li {
   border-radius: 5px;
 }
 
+form {
+  margin: auto;
+}
+
 fieldset {
   display: flex;
   flex-direction: column;
