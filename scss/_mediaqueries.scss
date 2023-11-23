@@ -4,110 +4,112 @@
   .containerThree {
     margin-top: 0px;
   }
-  
+
   .containerFour {
-      width: 40%; 
-      margin-bottom: 20px;
-    }
-  
-    .containerZero {
-      display: grid;
-      grid-template-columns: auto;
-      justify-content: space-around;
-    }
-  
-    .containerEight {
-      width: 40%;
-    }
-    .buttonOne {
-      border-left: none;
-    }
-
-    section div div p {
-      font-size: 0.8rem;
-    }
-
-    main section h1 {
-      margin-bottom: 30px;
-    }
+    width: 40%;
+    margin-bottom: 20px;
   }
 
-  /* MOBILE */
-
- 
-
-  @media screen and (max-width: 767px) {
-    
-
-    main section h1 {
-      margin-bottom: 30px;
-    }
-    .containerThree {
-      margin-top: 0px;
-    }
-    
-    .containerFour {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .containerZero {
-      display: grid;
-      grid-template-columns: auto;
-      justify-content: space-around;
-    }
-  
-    .containerEight {
-      width: 100%;
-    }
-
-    .containerFourteen {
-      display: none;
-    }
-
-    .containerThirdteen {
-      margin: 0px 30px 0px 0px; 
-    }
-
-  
-    .buttonOne {
-      border-left: none;
-    }
+  .containerZero {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
   }
 
-  @media screen and (min-width: 1150px) and (max-width: 1560px) {
+  .containerEight {
+    width: 40%;
+  }
 
-    .containerSix {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      gap: 10px;
+  .buttonOne {
+    border-left: none;
+  }
+
+  section div div p {
+    font-size: 0.8rem;
+  }
+
+  main section h1 {
+    margin-bottom: 30px;
+  }
+}
+
+/* MOBILE */
+
+
+
+@media screen and (max-width: 767px) {
+
+
+  main section h1 {
+    margin-bottom: 30px;
+  }
+
+  .containerThree {
+    margin-top: 0px;
+  }
+
+  .containerFour {
     width: 100%;
-    }
+    margin-bottom: 20px;
   }
-  
-  @media screen and (min-width: 800px) and (max-width: 1150px) {
-  
-    .containerSix {
-      display: grid;
-      grid-template-columns: auto auto;
-      gap: 10px;
+
+  .containerZero {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+
+  .containerEight {
     width: 100%;
-    margin: auto;
-    }
-  
   }
-  
-  @media screen and (max-width: 800px) {
-  
-    .containerSix {
-      display: grid;
-      grid-template-columns: auto;
-      gap: 10px;
+
+  .containerFourteen {
+    display: none;
+  }
+
+  .containerThirdteen {
+    margin: 0px 30px 0px 0px;
+  }
+
+
+  .buttonOne {
+    border-left: none;
+  }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1560px) {
+
+  .containerSix {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+
+  .containerSix {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
     width: 100%;
     margin: auto;
-    }
-  
-    .containerSeven {
-      margin: auto;
-    }
   }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .containerSix {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .containerSeven {
+    margin: auto;
+  }
+}

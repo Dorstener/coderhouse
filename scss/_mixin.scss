@@ -1,6 +1,6 @@
 /* MIXIN */
 
-@mixin anclas { 
+@mixin anclas {
     text-decoration: none;
     font-weight: bold;
 }
@@ -8,4 +8,3 @@
 .anchorOne {
     @include anclas;
 }
-
